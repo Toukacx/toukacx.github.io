@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.touka" name="toukacx repository" version="1.0" provider-name="Toukacx">
+    <extension point="xbmc.addon.repository" name="Touka Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Toukacx/toukacx.github.io/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Toukacx/toukacx.github.io/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Toukacx/toukacx.github.io/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>toukacx repository</summary>
+        <description>private repository of toukacx</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
